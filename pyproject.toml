@@ -1,0 +1,10 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "opencv-python",
+    "screen-brightness-control",
+    "numpy",
+    "screeninfo",
+]
+build-backend = "setuptools.build_meta"
