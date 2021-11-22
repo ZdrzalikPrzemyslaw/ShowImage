@@ -19,7 +19,7 @@ def display_image(time_1=5000, time_2=2000):
     screen = screeninfo.get_monitors()[0]
     width, height = screen.width, screen.height
 
-    sbc.set_brightness(0, display=0)
+    sbc.set_brightness(0, display=0, force=True)
     image = np.zeros((height, width, 3), dtype=np.float32)
     window_name = 'projector'
     cv2.namedWindow(window_name, cv2.WND_PROP_FULLSCREEN)
@@ -35,11 +35,11 @@ def display_image(time_1=5000, time_2=2000):
     cv2.imshow(window_name, image)
     time = datetime.now().strftime("%I:%M:%S")
     f.write("Display White " + time + "\n")
-    sbc.set_brightness(100, display=0)
+    sbc.set_brightness(100, display=0, force=True)
     k = cv2.waitKey(time_2)
     cv2.destroyAllWindows()
 
-    sbc.set_brightness(current_brightness, display=0)
+    sbc.set_brightness(current_brightness, display=0, force=True)
 
     time = datetime.now().strftime("%I:%M:%S")
     f.write("End " + time + "\n")

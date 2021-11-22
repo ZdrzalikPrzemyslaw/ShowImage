@@ -1,0 +1,8 @@
+Start 08:42:46
+Display Black 08:42:47
+Display White 08:42:49
+End 08:42:51
+Start 08:42:55
+Display Black 08:42:56
+Display White 08:42:58
+End 08:43:00
