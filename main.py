@@ -1,3 +1,3 @@
-import zdrzalik_image_display.run
+import src.zdrzalik_image_display.run as run
 
-zdrzalik_image_display.run.display_image(2000, 2000)
+run.display_image(2000, 2000)
