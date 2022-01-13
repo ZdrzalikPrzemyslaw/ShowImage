@@ -1,4 +1,0 @@
-Start 03:26:12
-Display Black 03:26:12
-Display White 03:26:14
-End 03:26:16
