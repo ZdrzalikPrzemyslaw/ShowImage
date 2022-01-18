@@ -11,3 +11,5 @@ run.display_image(n, x)
 
 edit main.py before running to adjust the values
 
+To run the script run the main.py file through python
+
